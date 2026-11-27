@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
-
 <body>
+    <nav>
+    <a href = '/frontend/pages/login.html'>login</a>
+    <a href = '/frontend/pages/register.html'>register</a>
+    </nav>
+
     <form id='registerForm' class='auth-form'>
         <input type='text' id='registerUsername' name='username' placeholder='Username' required>
         <input type='text' id='registerName' name='name' placeholder='Name' required>
@@ -27,6 +32,8 @@
         <button type='submit' class='auth-button'>Register</button>
         <p id="greska"></p>
     </form>
+
+    <footer>footer za kontakt</footer>
     <script src="config.js"></script>
     <script src="register.js"></script>
 </body>

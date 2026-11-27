@@ -1,0 +1,48 @@
+body {
+        background-image: url('https://www.shutterstock.com/image-photo/light-green-bokeh-nature-background-600w-2735270021.jpg');
+    background-size:cover;
+    }
+nav {
+    background-color: #142F0D;
+    height: 30px;
+    padding: 10px;
+}
+nav a{
+color: whitesmoke;
+text-decoration: none;
+margin: 5px 2px 5px 2px;
+}
+p {
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+form  {
+border: 5px solid #45554B;
+background-color: #D0E3CA;
+padding: 15px;
+position: center;
+width: 200px;
+padding-left: 5%;
+margin: 5% 30% 5% 30%;
+    }
+button {
+        display: block;
+        margin-top: 10px;
+        color: green;
+        width: 90px;
+        height: 30px;
+    }
+input {
+        height: 25px;
+        display: block;
+        margin: 10px 0 10px 0;
+    }
+select {
+        width: 100px;
+        height: 20px;
+    }
+footer {
+    background-color:#142F0D;
+    color: whitesmoke;
+    padding: 20px;
+}
